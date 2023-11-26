@@ -22,10 +22,9 @@ a {
   width: 1370px;
   height: 62px;
   border-radius: 12px;
-  border: 3px solid #F00;
-  background: rgba(121, 116, 116, 0.10);
+  border: 3px solid #f00;
+  background: rgba(121, 116, 116, 0.1);
   backdrop-filter: blur(7.5px);
-
 }
 .header-nav a {
   color: #fff;
@@ -54,12 +53,12 @@ a {
 }
 .hero-bg {
   position: absolute;
- top: -250px;
+  top: -250px;
   left: 210px;
-    width: 1000px ;
-    height: 1000px;
-    z-index: -1;
-    filter: blur(150px);
+  width: 1000px;
+  height: 1000px;
+  z-index: -1;
+  filter: blur(150px);
 }
 .hero-text h1 {
   color: #fff;
@@ -67,6 +66,11 @@ a {
   font-weight: 700;
   letter-spacing: 9.36px;
 }
+/* .hero-figur{
+  width: 600px;
+height: 3px;
+background: #F00;
+} */
 .hero-text h2 {
   color: #fff;
   font-size: 33px;
@@ -84,6 +88,7 @@ a {
   border-radius: 27px;
   background: #fff;
   margin: 20px 0 30px 0;
+  border: none;
 }
 .hero-text p {
   color: #fff;
@@ -91,16 +96,112 @@ a {
   font-weight: 700;
   letter-spacing: 1.56px;
 }
-.hero{
-    position: relative;
+.hero {
+  position: relative;
 }
-.hero-hand{
-    position: absolute;
-    left: -61px;
-    top: 83px;
+.hero-hand {
+  position: absolute;
+  left: -61px;
+  top: 83px;
 }
-.hero-hand1{
-    position: absolute;
-    right: -58px;
- top: -80px;
+.hero-hand1 {
+  position: absolute;
+  right: -58px;
+  top: -80px;
+}
+#about {
+  padding: 150px 0 70px 0;
+}
+.about {
+  text-align: center;
+  /* position: relative; */
+}
+
+.about-figur {
+  width: 180px;
+  height: 3px;
+  background: #f00;
+  margin: 0 43%;
+}
+.about h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: normal;
+  letter-spacing: 2.6px;
+  margin: 30px 0;
+}
+.about p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+}
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+}
+.about-img h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  margin-top: 30px;
+}
+.img-figur {
+  width: 95px;
+  height: 2px;
+  background: #f00;
+  margin: 0 100px;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.about-text1 h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.95px;
+  margin: 20px 0;
+}
+.about-text1 p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.about-text1 div {
+  width: 232px;
+  height: 3px;
+  background: #f00;
+  margin: 0 25%;
+}
+.about button {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.91px;
+  border-radius: 27px;
+  background: #fff;
+  width: 176px;
+  height: 44px;
+  margin: 90px 0;
+}
+#hand {
+  position: relative;
+  padding: 10px 0;
+}
+.about-hand {
+  position: absolute;
+  left: 0;
+  bottom: -500px;
+}
+.about-hand1 {
+  position: absolute;
+  right: 0;
+  bottom: -450px;
 }
