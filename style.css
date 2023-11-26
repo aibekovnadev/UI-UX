@@ -4,7 +4,7 @@
 }
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 75%;
 }
 body {
   background: #000;
@@ -19,7 +19,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1370px;
+  width: 1170px;
   height: 62px;
   border-radius: 12px;
   border: 3px solid #f00;
@@ -193,15 +193,82 @@ background: #F00;
 }
 #hand {
   position: relative;
-  padding: 10px 0;
 }
 .about-hand {
   position: absolute;
   left: 0;
-  bottom: -500px;
+  top: -458px;
 }
 .about-hand1 {
   position: absolute;
   right: 0;
-  bottom: -450px;
+  top: -458px;
+}
+#portfol {
+  margin: 300px 0;
+}
+.portfol-main {
+  text-align: center;
+  position: relative;
+}
+.portfol-main h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+}
+.portfol-main div {
+  width: 364px;
+  height: 3px;
+  background: #f00;
+  margin: 0 38%;
+}
+.portfols {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfol-text p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.portfol-text button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  width: 206px;
+  height: 57px;
+  border-radius: 51px;
+  background: #f00;
+  margin: 30px 100px;
+}
+.portfol-button {
+  text-align: center;
+}
+.portfol-button button {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.91px;
+  width: 176px;
+  height: 44px;
+  border-radius: 27px;
+  background: #fff;
+}
+.portfol-hand {
+  position: relative;
+}
+.portfol-hand1 {
+  position: absolute;
+  right: 0;
+  top: -240px;
+}
+.portfol-hand2 {
+  position: absolute;
+  left: 0;
+  top: -204px;
 }
