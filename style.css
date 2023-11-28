@@ -32,6 +32,10 @@ a {
   font-weight: 700;
   padding: 0 30px;
 }
+.header-nav a:hover{
+  color: #FFF;
+  text-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 00px #fff, 0 0 100px #fff, 0 0 150px #fff;
+}
 .header h1 {
   color: #fff;
   font-size: 24px;
@@ -229,6 +233,11 @@ background: #F00;
   align-items: center;
   justify-content: space-between;
 }
+.portfols img{
+  -webkit-box-shadow: 5px -6px 37px 37px rgba(249, 7, 7, 0.45);
+-moz-box-shadow: 5px -6px 37px 37px rgba(249, 7, 7, 0.45);
+box-shadow: 5px -6px 37px 37px rgba(249, 7, 7, 0.45);
+}
 .portfol-text p {
   color: #fff;
   font-size: 18px;
@@ -377,4 +386,209 @@ color: #000;
 font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.91px;
+}
+#question{
+  margin: 150px 0;
+}
+.question{
+  align-items: center;
+}
+.quest-figur{
+  width: 537px;
+height: 3px;
+background: #F00;
+margin: 0 25%;
+}
+.question h1{
+  color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+}
+.quest-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.quest-blok{
+display: flex;
+margin: 40px 0;
+
+}
+.quest-blok input{
+  width: 350px;
+height: 65px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+padding:  0 20px;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+
+}
+.quest-text label{
+  color: #FFF;
+font-size: 20px;
+font-weight: 800;
+letter-spacing: 1.17px;
+padding-bottom: 20px;
+
+}
+.quest-text textarea{
+  width: 790px;
+height: 133px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+}
+.answer h2{
+  color: #FFF;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1.56px;
+}
+.answer span{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+}
+.answer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-3 {
+  background: rgb(238, 24, 0);
+background: linear-gradient(0deg, rgb(238, 67, 0) 0%, rgb(251, 39, 2) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgb(251, 14, 2);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgb(247, 244, 241);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgb(251, 48, 2);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
